@@ -21,11 +21,15 @@ The system provides a simple, intuitive web interface via **Streamlit**, enablin
 
 
 ## Project Structure
-├── app.py # Streamlit application
-├── dataset.csv # Domain-specific dataset (uploaded)
-├── requirements.txt # Dependencies for Streamlit Cloud
-├── best_flan_t5_healthcare_model/ # Fine-tuned model (linked from Drive)
-├── README.md # Project documentation
+app1.py # Streamlit application
+
+dataset.csv # Domain-specific dataset (uploaded)
+
+requirements.txt # Dependencies for Streamlit Cloud
+
+best_flan_t5_healthcare_model/ # Fine-tuned model (linked from Drive)
+
+README.md # Project documentation
 
 
 ## Dataset
@@ -83,7 +87,12 @@ The model generates contextually coherent and emotionally sensitive responses su
 
 ### Run On Virtual Environment
 
+Create a virtual environment and activate it then run the following commands
+
+/.venv/Scripts/activate
+
 pip install -r requirements.txt
+
 streamlit run app.py
 
 ### Project Links

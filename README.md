@@ -1,22 +1,22 @@
 # Mental Health Chatbot — FLAN-T5 (Healthcare Domain)
 
-A supportive, domain-specific chatbot designed to provide **empathetic and informative responses** to mental-health–related questions.  
-Built using **Google FLAN-T5**, fine-tuned on a custom mental-health conversational dataset, and deployed via **Streamlit Cloud** with the model hosted on **Google Drive**.
+A supportive, domain-specific chatbot designed to provide empathetic and informative responses to mental-health–related questions.  
+Built using Google FLAN-T5, fine-tuned on a custom mental-health conversational dataset, with the model hosted on Google Drive.
 
 
 ## Project Overview
 
-This project demonstrates the implementation of a **domain-specific Transformer chatbot** focused on **mental health awareness and self-care**.  
+This project demonstrates the implementation of a domain-specific Transformer chatbot focused on mental health awareness and self-care.  
 The chatbot generates human-like responses to user queries about mental wellness using a fine-tuned generative language model (FLAN-T5).
 
-The system provides a simple, intuitive web interface via **Streamlit**, enabling real-time user interaction with the AI model.
+The system provides a simple, intuitive web interface via Streamlit, enabling real-time user interaction with the AI model.
 
 
 ## Objectives
 
-- Fine-tune a **Transformer-based language model** (FLAN-T5) on mental-health–related conversations.  
-- Build a **responsive web app** that interacts with the model in real time.  
-- Ensure **empathetic and contextually accurate** responses to user inputs.  
+- Fine-tune a Transformer-based language model (FLAN-T5) on mental-health–related conversations.  
+- Build a responsive streamlit app that interacts with the model in real time.  
+- Ensure empathetic and contextually accurate responses to user inputs.  
 - Deploy a fully functional, user-friendly chatbot for demonstration.
 
 
